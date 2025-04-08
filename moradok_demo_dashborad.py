@@ -1,3 +1,8 @@
+# Add this at the very top of your script, before any imports
+import pip
+pip.main(['install', 'matplotlib', 'plotly'])
+
+# Then your original imports
 import streamlit as st
 import pandas as pd
 import numpy as np
